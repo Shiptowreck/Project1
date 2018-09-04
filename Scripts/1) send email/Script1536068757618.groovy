@@ -21,21 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUiBuiltInKeywords.openBrowser('')
 
-WebUiBuiltInKeywords.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
+WebUI.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
-WebUiBuiltInKeywords.setText(findTestObject('Responding email/input_identifier'), 'adresat.test@gmail.com')
+WebUiBuiltInKeywords.setText(findTestObject('Send email/input_identifier (1)'), 'adresant.test@gmail.com')
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/span_'))
+WebUiBuiltInKeywords.click(findTestObject('Send email/span_ (1)'))
 
-WebUiBuiltInKeywords.setText(findTestObject('Responding email/input_password'), 'adresat2018')
+WebUiBuiltInKeywords.setText(findTestObject('Send email/input_password (1)'), 'adresant2018')
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/span_'))
+WebUiBuiltInKeywords.click(findTestObject('Send email/span_ (1)'))
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/new incoming message'))
+WebUiBuiltInKeywords.click(findTestObject('Send email/div_ (1)'))
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/response_button'))
+WebUiBuiltInKeywords.setText(findTestObject('Send email/textarea_to'), 'adresat.test@gmail.com')
 
-WebUiBuiltInKeywords.setText(findTestObject('Responding email/text'), Response)
+WebUiBuiltInKeywords.setText(findTestObject('Send email/input_subjectbox'), theme)
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/send back button'))
+WebUiBuiltInKeywords.setText(findTestObject('Send email/div_messageee'), message)
+
+WebUiBuiltInKeywords.click(findTestObject('Send email/send (1)'))
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2) responding email</name>
+   <name>2) respond to email</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e0590ac8-036e-4abb-9460-3caf16a1e7fb</testCaseGuid>

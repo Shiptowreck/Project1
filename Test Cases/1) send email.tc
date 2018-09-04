@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1) sending mail</name>
+   <name>1) send email</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b606b9f9-6fba-4182-bc64-a8b5e6a099fd</testCaseGuid>

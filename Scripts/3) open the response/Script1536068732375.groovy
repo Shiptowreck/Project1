@@ -21,23 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUiBuiltInKeywords.openBrowser('')
 
-WebUI.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
+WebUiBuiltInKeywords.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
-WebUiBuiltInKeywords.setText(findTestObject('Sending email/input_identifier (1)'), 'adresant.test@gmail.com')
+WebUiBuiltInKeywords.setText(findTestObject('Respond to email/input_identifier'), 'adresant.test@gmail.com')
 
-WebUiBuiltInKeywords.click(findTestObject('Sending email/span_ (1)'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/span_'))
 
-WebUiBuiltInKeywords.setText(findTestObject('Sending email/input_password (1)'), 'adresant2018')
+WebUiBuiltInKeywords.setText(findTestObject('Respond to email/input_password'), 'adresant2018')
 
-WebUiBuiltInKeywords.click(findTestObject('Sending email/span_ (1)'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/span_'))
 
-WebUiBuiltInKeywords.click(findTestObject('Sending email/div_ (1)'))
-
-WebUiBuiltInKeywords.setText(findTestObject('Sending email/textarea_to'), 'adresat.test@gmail.com')
-
-WebUiBuiltInKeywords.setText(findTestObject('Sending email/input_subjectbox'), theme)
-
-WebUiBuiltInKeywords.setText(findTestObject('Sending email/div_messageee'), message)
-
-WebUiBuiltInKeywords.click(findTestObject('Sending email/send (1)'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/new incoming message'))
 

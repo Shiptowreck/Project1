@@ -23,13 +23,19 @@ WebUiBuiltInKeywords.openBrowser('')
 
 WebUiBuiltInKeywords.navigateToUrl('https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
-WebUiBuiltInKeywords.setText(findTestObject('Responding email/input_identifier'), 'adresant.test@gmail.com')
+WebUiBuiltInKeywords.setText(findTestObject('Respond to email/input_identifier'), 'adresat.test@gmail.com')
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/span_'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/span_'))
 
-WebUiBuiltInKeywords.setText(findTestObject('Responding email/input_password'), 'adresant2018')
+WebUiBuiltInKeywords.setText(findTestObject('Respond to email/input_password'), 'adresat2018')
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/span_'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/span_'))
 
-WebUiBuiltInKeywords.click(findTestObject('Responding email/new incoming message'))
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/new incoming message'))
+
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/response_button'))
+
+WebUiBuiltInKeywords.setText(findTestObject('Respond to email/text'), Response)
+
+WebUiBuiltInKeywords.click(findTestObject('Respond to email/send back button'))
 

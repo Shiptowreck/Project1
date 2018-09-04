@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3) opening response</name>
+   <name>3) open the response</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a4c8261f-9a10-4026-97b8-ca32e3f69303</testCaseGuid>
