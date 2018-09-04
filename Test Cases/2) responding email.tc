@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2) responding email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0590ac8-036e-4abb-9460-3caf16a1e7fb</testCaseGuid>
+   <variable>
+      <defaultValue>'random text'</defaultValue>
+      <description></description>
+      <id>9c6357b1-cb6b-4267-bbbf-ff4aa30e380a</id>
+      <masked>false</masked>
+      <name>Response</name>
+   </variable>
+</TestCaseEntity>

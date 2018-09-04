@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1) sending mail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b606b9f9-6fba-4182-bc64-a8b5e6a099fd</testCaseGuid>
+   <variable>
+      <defaultValue>'random theme'</defaultValue>
+      <description></description>
+      <id>324ebf7d-106b-41da-83ec-86b16c8eef8a</id>
+      <masked>false</masked>
+      <name>theme</name>
+   </variable>
+   <variable>
+      <defaultValue>'random message'</defaultValue>
+      <description></description>
+      <id>f922637a-512d-45e0-aca3-63664eef77cf</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>
